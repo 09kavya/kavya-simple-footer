@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex-direction: column;
+        min-height: 100vh;
+    
+}
+footer{
+    background-color: rgb(195, 195, 195);
+    position: relative;
+    width: 100%;
+    min-height: 350px;
+    padding: 3rem 1rem;
+}
+.company{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: larger;
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+}
+p{
+    text-align: center;
+    font-size: medium;
+    padding: 10px;
+    color: rgb(26, 24, 24);
+}
+.mobile{
+    text-align: center;
+    font-size: medium;
+    padding: 10px;
+    color: rgb(26, 24, 24);
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    
+}
